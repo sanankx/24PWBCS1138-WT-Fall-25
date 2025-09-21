@@ -1,0 +1,2 @@
+This will reapply your local changes on top of the latest changes from the remote branch.
+ You will have to resolve any conflicts that arise during the rebase.
