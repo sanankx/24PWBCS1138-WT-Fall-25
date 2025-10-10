@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>CSS Basics</title>
+        <style>
+            body {
+                margin: 0;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-color: blanchedalmond;
+            }
+            .rounded-image {
+                width: 150px;
+                height: 150px;
+                overflow: hidden; /*ckip the image within the conatiner*/
+                border-radius: 50%; /*create a circular shape*/
+                margin-left: 10px;
+            }
+            img{
+                width: 100%;
+                height: auto; /* maintain the asoect ratio of the range*/
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to CS-311-Web Programming</h1>
+        <div class="rounded-image">
+            <img src="sanan.jpg" alt="round image">
+        </div>
+    </body>
+</html>
